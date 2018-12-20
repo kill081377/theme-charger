@@ -1628,14 +1628,14 @@ content: "test";
 #bd-settings-sidebar > span > div:nth-child(3)::after {
 display:block;
 margin-top:-12px;
-text: "Charger v1.0.0 by";
+context: "Charger v1.0.0 by";
 }
 
 #bd-settings-sidebar > span > div:nth-child(3) a::after {
 display:block;
 padding-top:5px;
 padding-left:68px;
-text: "Vitrox");
+context: "Vitrox");
 }
 
 .emojiPicker-3m1S-j .header-1nkwgG {background-color: rgba(0,0,0,.45)}
