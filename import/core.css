@@ -66,15 +66,20 @@
 .member-3W1lQa.popout-open .content-OzHfo4, .member-3W1lQa.popout-open:hover .content-OzHfo4 {background-color: rgba(0,0,0,.5)}
 .activity-1IYsbk {color: hsla(0, 100%, 100%, 0.9) !important;}
 .membersGroup-v9BXpm {
-  padding: 0 0 0 16px;
-  margin: 20px 0 0 0;
-  height: 20px;
-  box-sizing: border-box;
-  background-color: transparent;
-  color: hsla(0, 100%, 100%, 0.9) !important;
-  text-shadow: 0 0 5px 5px rgba(0,0,0,.5);
-  text-transform: none;
-  font-size: 14px;
+color: rgba(var(--BMT-memberheadertext-color),1) !important;
+background-image: linear-gradient(180deg, rgba(var(--BMT-memberheader-color),1), transparent, rgba(var(--BMT-memberheader-color),1)), linear-gradient(0deg, rgba(var(--BMT-memberheader-color),1), transparent, rgba(var(--BMT-memberheader-color),1)), linear-gradient(90deg, rgba(var(--BMT-memberheader-color),1), transparent, rgba(var(--BMT-memberheader-color),1)), linear-gradient(90deg, rgba(var(--BMT-memberheader-color),1), transparent, rgba(var(--BMT-memberheader-color),1));
+background-size: 3px 100%, 3px 100%, 100% 3px, 100% 3px;
+background-position: 100% 0, 0 100%;
+background-repeat: no-repeat;
+padding-top: 15px;
+padding-bottom: 6px;
+margin-top: 2px;
+margin-bottom: 2px;
+text-align: center;
+border-radius: 4px;
+line-height: 10px !important;
+width: 217px !important;
+margin-left: 8px !important;
 }
 .typeWindows-1za-n7 {
   margin: 0;
