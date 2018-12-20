@@ -1149,6 +1149,22 @@ margin-left: 8px !important;
   border: none !important;
   background: transparent !important;
 }
+.aka-1mqp34 {
+    -ms-flex-negative: 0;
+    background: #2c6bda;
+    border-radius: 3px;
+    color: #fff;
+    flex-shrink: 0;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 18px;
+    margin-right: 8px;
+    padding: 1px 3px;
+    position: relative;
+    text-transform: uppercase;
+    top: 2px;
+    vertical-align: top;
+}
 .inputDefault-3JxKJ2,
 .input-3ITkQf {border-radius: 0 !important;}
 .input-cIJ7To[name="username"]:focus {border: none !important;}
