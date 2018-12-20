@@ -1,6 +1,3 @@
-@import url('https://rawgit.com/PONYMODZ/Discord-stuff/master/themes/css/bmt-animations.css');
-
-
 :root {
   --primary: #0066ff;
   --primary2: #0047b3;
@@ -9,36 +6,6 @@
   --light: #2e3038;
   --load-background: url('https://i.imgur.com/8E1Rgb5.png');
 }
-
-/*--Loading Animation--*/
-#app-mount::after{
-content:"";
-position:absolute;
-top:0;
-right:0;
-bottom:0;
-left:0;
-color:#40E0D0;
-background: var(--load-background) no-repeat center center fixed;
-background-size: cover;
-font-size:50px;
-font-weight:700;
-text-align:center;
-line-height:100vh;
-opacity:0;
-z-index:9999;
-pointer-events:none;
--webkit-animation:cv-init 5s ease-in-out;
-animation:cv-init 5s ease-in-out;
-}
-
-/*--Other Animations--*/
-.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.unread-qLkInr, 
-.channel.channel-text.unread:not(.channel-muted):not(.selected),
-[class*=unreadIndicator] {
--webkit-animation: glowpulse 1s infinite alternate;
-animation: glowpulse 1s infinite alternate;
-} 
 
 .container-PNkimc,
 .members-1998pB {
@@ -100,8 +67,8 @@ animation: glowpulse 1s infinite alternate;
 .member-3W1lQa.popout-open .content-OzHfo4, .member-3W1lQa.popout-open:hover .content-OzHfo4 {background-color: rgba(0,0,0,.5)}
 .activity-1IYsbk {color: hsla(0, 100%, 100%, 0.9) !important;}
 .membersGroup-v9BXpm {
-color: rgba(var(--BMT-memberheadertext-color),1) !important;
-background-image: linear-gradient(180deg, rgba(var(--BMT-memberheader-color),1), transparent, rgba(var(--BMT-memberheader-color),1)), linear-gradient(0deg, rgba(var(--BMT-memberheader-color),1), transparent, rgba(var(--BMT-memberheader-color),1)), linear-gradient(90deg, rgba(var(--BMT-memberheader-color),1), transparent, rgba(var(--BMT-memberheader-color),1)), linear-gradient(90deg, rgba(var(--BMT-memberheader-color),1), transparent, rgba(var(--BMT-memberheader-color),1));
+color: rgba(var(--memberheadertext-color),1) !important;
+background-image: linear-gradient(180deg, rgba(var(--memberheader-color),1), transparent, rgba(var(--memberheader-color),1)), linear-gradient(0deg, rgba(var(--memberheader-color),1), transparent, rgba(var(--memberheader-color),1)), linear-gradient(90deg, rgba(var(--memberheader-color),1), transparent, rgba(var(--memberheader-color),1)), linear-gradient(90deg, rgba(var(--memberheader-color),1), transparent, rgba(var(--memberheader-color),1));
 background-size: 3px 100%, 3px 100%, 100% 3px, 100% 3px;
 background-position: 100% 0, 0 100%;
 background-repeat: no-repeat;
