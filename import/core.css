@@ -1624,6 +1624,20 @@ content: "test";
   color: #fff;
   background-color: var(--dark) !important;
 }
+
+#bd-settings-sidebar > span > div:nth-child(3)::after {
+display:block;
+margin-top:-12px;
+content: "Charger v1.0.0 by";
+}
+
+#bd-settings-sidebar > span > div:nth-child(3) a::after {
+display:block;
+padding-top:5px;
+padding-left:68px;
+content: "Vitrox");
+}
+
 .emojiPicker-3m1S-j .header-1nkwgG {background-color: rgba(0,0,0,.45)}
 .bda-dark .emoji-picker .header .search-bar, .bda-dark .emojiPicker-3m1S-j .header-1nkwgG .search-bar {background-color: transparent;}
 /* tags */
