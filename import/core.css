@@ -1115,12 +1115,10 @@ margin-left: 8px !important;
   border-left: 4px solid rgba(251, 184, 72,.9);
 }
 #bd-settings-sidebar .ui-tab-bar-item {margin: 2px 0 2px 0;}
-#bd-settings-sidebar::after {
-  content: "Theme Version: 1.0.0";
-  font-size: 12px;
-  font-weight: 600;
-  color: rgb(114, 118, 125);
-  padding: 2px 10px;
+#bd-settings-sidebar > span > div:nth-child(3)::after {
+display:block;
+margin-top:-12px;
+content: "test";
 }
 #bd-settings-sidebar .ui-tab-bar-item,
 .side-8zPYf6 .item-PXvHYJL,
