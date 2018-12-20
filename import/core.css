@@ -6,36 +6,6 @@
   --light: #2e3038;
 }
 
-/*--Loading Animation--*/
-#app-mount::after{
-content:"";
-position:absolute;
-top:0;
-right:0;
-bottom:0;
-left:0;
-color:#40E0D0;
-background: var(--BMT-load-background) no-repeat center center fixed;
-background-size: cover;
-font-size:50px;
-font-weight:700;
-text-align:center;
-line-height:100vh;
-opacity:0;
-z-index:9999;
-pointer-events:none;
--webkit-animation:cv-init 5s ease-in-out;
-animation:cv-init 5s ease-in-out;
-}
-
-/*--Other Animations--*/
-.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.unread-qLkInr, 
-.channel.channel-text.unread:not(.channel-muted):not(.selected),
-[class*=unreadIndicator] {
--webkit-animation: glowpulse 1s infinite alternate;
-animation: glowpulse 1s infinite alternate;
-}
-
 .container-PNkimc,
 .members-1998pB {
   background-color: #18191d !important;
