@@ -1662,7 +1662,7 @@ content: "test";
 .standardSidebarView-3F1I7i, .standardSidebarView-3F1I7i *::after{
   display:block;
 margin-top:-12px;
-context: "Charger v1.0.0 by";
+text: "Charger v1.0.0 by";
 }
 }
 
@@ -1670,7 +1670,7 @@ context: "Charger v1.0.0 by";
 display:block;
 padding-top:5px;
 padding-left:68px;
-context: "Vitrox");
+text: "Vitrox");
 }
 
 .emojiPicker-3m1S-j .header-1nkwgG {background-color: rgba(0,0,0,.45)}
